@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Generative Gains — Minimal, intelligent value creation</title>
+    <meta name="description" content="Generative Gains helps teams design, prototype, and deploy AI systems that compound advantage—quietly, elegantly, and responsibly." />
+    <meta name="theme-color" content="#0D1117" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./assets/logo.png" />
+    <meta property="og:title" content="Generative Gains" />
+    <meta property="og:description" content="Elegant AI strategy, prototyping, and enablement." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/logo.png" />
+  </head>
+  <body>
+    <div id="startup-overlay">
+      <div class="startup-content">
+        <img src="./assets/logo.png" alt="Generative Gains Logo" class="startup-logo" />
+        <div id="terminal"></div>
+      </div>
+    </div>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+    <div id="grain-overlay"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Generative Gains home">
+          <img src="./assets/logo.png" alt="Generative Gains logo" class="brand-mark" />
+          <span class="brand-name">Generative Gains</span>
+        </a>
+        <nav class="nav" aria-label="Primary" data-js-nav>
+          <ul id="nav-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#offering">Offering</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark theme">
+            <div class="theme-toggle-indicator"></div>
+          </button>
+        </nav>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation" data-js-nav-toggle>
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero container fade-in">
+        <div class="hero-mark">
+          <img src="./assets/logo.png" alt="Generative Gains logo" />
+        </div>
+        <h1>Quietly compounding advantage</h1>
+        <p class="lede">
+          Strategy, prototyping, and enablement for teams using AI—minimal, precise, and outcome‑driven.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn">Start a conversation</a>
+        </div>
+      </section>
+
+      <section id="about" class="section container fade-in">
+        <h2>About</h2>
+        <p>
+          Generative Gains partners with leaders to turn ambiguous AI ideas into practical capability. We emphasize
+          small surfaces, strong signals, and compounding effects—so the work speaks for itself.
+        </p>
+      </section>
+
+      <section id="offering" class="section container fade-in">
+        <h2>Our Offering</h2>
+        <div class="bento-grid">
+          <div class="bento-item card" style="--delay: 0s;">
+            <h3>Services</h3>
+            <ul class="list">
+              <li><strong>AI Strategy</strong> — value mapping, use‑case selection, risk framing</li>
+              <li><strong>Prototyping</strong> — design sprints, evaluation, production hand‑off</li>
+              <li><strong>Automation</strong> — workflow design, agents, integrations</li>
+              <li><strong>Enablement</strong> — training, playbooks, governance patterns</li>
+            </ul>
+          </div>
+          <div class="bento-item card" style="--delay: 0.1s;">
+            <h3>What defines our work</h3>
+            <ul class="list muted">
+              <li>Minimal surface, maximal signal</li>
+              <li>Measured, testable outcomes</li>
+              <li>Responsible by design</li>
+            </ul>
+          </div>
+          <div class="bento-item card feature" style="--delay: 0.2s;">
+            <div class="icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" class="svg-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.75L4.75 6.375V12c0 4.418 3.134 8.168 7.25 9.25 4.116-1.082 7.25-4.832 7.25-9.25V6.375L12 2.75zM12 4.333L18 7.395v4.605c0 3.866-2.686 7.25-6 8.167-3.314-.917-6-4.301-6-8.167V7.395L12 4.333z"/></svg>
+            </div>
+            <div>
+              <h3>Evaluation</h3>
+              <p>Measure quality and cost with lightweight, repeatable tests.</p>
+            </div>
+          </div>
+          <div class="bento-item card feature" style="--delay: 0.3s;">
+            <div class="icon-wrap" aria-hidden="true">
+              <svg viewBox="0 0 24 24" class="svg-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 8V6h14v2H5zm-2 2h18v10H3V10zm10 8v-6H7v6h6z"/></svg>
+            </div>
+            <div>
+              <h3>Prototyping</h3>
+              <p>Ship the smallest thing that works—fast, testable, hand‑off ready.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section container fade-in">
+        <h2>Work</h2>
+        <div class="gallery masonry">
+          <figure style="--delay: 0s;">
+            <img src="./assets/placeholder-1.svg" alt="Prototype dashboard" />
+            <figcaption>Tiny evaluation harness for LLM responses</figcaption>
+          </figure>
+          <figure style="--delay: 0.1s;">
+            <img src="./assets/placeholder-2.svg" alt="Workflow automation" />
+            <figcaption>Agentic workflow to reduce manual ops</figcaption>
+          </figure>
+          <figure style="--delay: 0.2s;">
+            <img src="./assets/placeholder-3.svg" alt="Design sprint artifacts" />
+            <figcaption>Design sprint artifacts and hand‑off kit</figcaption>
+          </figure>
+          <figure style="--delay: 0.3s;">
+            <img src="./assets/placeholder-2.svg" alt="Automation visual" />
+            <figcaption>Automation spike results</figcaption>
+          </figure>
+          <figure style="--delay: 0.4s;">
+            <img src="./assets/placeholder-1.svg" alt="Prototype visual" />
+            <figcaption>Prototype flow sketches</figcaption>
+          </figure>
+          <figure style="--delay: 0.5s;">
+            <img src="./assets/placeholder-3.svg" alt="Sprint visual" />
+            <figcaption>Sprint storyboard</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="approach" class="section container fade-in">
+        <h2>Approach</h2>
+        <div class="steps">
+          <article class="step" style="--delay: 0s;">
+            <h3>Discover</h3>
+            <p>Clarify goals, constraints, and value paths. Define a tiny “first proof.”</p>
+          </article>
+          <article class="step" style="--delay: 0.1s;">
+            <h3>Design</h3>
+            <p>Prototype the smallest thing that works. Evaluate quality, cost, and risk.</p>
+          </article>
+          <article class="step" style="--delay: 0.2s;">
+            <h3>Deliver</h3>
+            <p>Harden what works, retire what doesn’t, and scale only when it compounds.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section container fade-in">
+        <h2>Contact</h2>
+        <p>
+          Tell us where you want leverage. We’ll reply with a short, concrete proposal.
+        </p>
+        <p>
+          <a class="btn" href="mailto:hello@generativegains.com?subject=Generative%20Gains%20Inquiry">hello@generativegains.com</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="footer-brand" href="#top">
+          <img src="./assets/logo.png" alt="Generative Gains logo" class="footer-mark" />
+        </a>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#offering">Offering</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="socials">
+          <a class="icon" href="mailto:hello@generativegains.com" aria-label="Email">
+            <svg class="svg-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M22 6H2V18h20V6zM20 8l-8 5-8-5V8h16v-2z"/></svg>
+          </a>
+          <a class="icon" href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg class="svg-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0H12v2.2h.06c.63-1.2 2.18-2.46 4.49-2.46 4.8 0 5.69 3.16 5.69 7.27V24h-5v-6.9c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.65 1.8-2.65 3.65V24h-5V8z"/></svg>
+          </a>
+          <a class="icon" href="https://x.com" target="_blank" rel="noopener" aria-label="X">
+            <svg class="svg-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 3H18l-7.7 9.1L18.8 21H14.9L9 14.5 3.6 21H0l8.2-9.7L0.7 3H4.6L10 9.2 14.7 3zM14.2 19.5h1.6L6.3 4.5H4.6l9.6 15z"/></svg>
+          </a>
+          <a class="icon" href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg class="svg-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.4.6.1.8-.3.8-.6v-2.1c-3.34.7-4.04-1.4-4.04-1.4-.55-1.4-1.34-1.8-1.34-1.8-1.1-.8.08-.8.08-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.7-1.6-2.66-.3-5.46-1.3-5.46-5.8 0-1.3.47-2.4 1.24-3.3-.12-.3-.54-1.6.12-3.3 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.66 1.7.24 3 .12 3.3.77.9 1.24 2 1.24 3.3 0 4.5-2.8 5.5-5.46 5.8.42.4.8 1.2.8 2.4v3c0 .3.2.7.8.6A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+        </div>
+        <div class="footer-copy">
+          Generative Gains LLC &copy; <span id="year"></span>. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
