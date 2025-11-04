@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'>
+  <defs>
+    <linearGradient id='g' x1='0' x2='1'>
+      <stop offset='0' stop-color='#ffffff'/>
+      <stop offset='1' stop-color='#f7f3ea'/>
+    </linearGradient>
+  </defs>
+  <rect width='1200' height='800' fill='url(#g)'/>
+  <path d='M0 760 L1200 40' stroke='#c6a15b' stroke-width='8' opacity='0.5'/>
+  <text x='60' y='120' font-size='72' font-family='Inter, Arial' fill='#c6a15b'>Prototype</text>
+</svg>

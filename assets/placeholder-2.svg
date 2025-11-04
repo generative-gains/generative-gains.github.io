@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'>
+  <rect width='1200' height='800' fill='#fff'/>
+  <rect x='80' y='120' width='1040' height='560' rx='20' fill='#fafafa' stroke='#e9e9e9'/>
+  <path d='M120 600h960' stroke='#c6a15b' stroke-width='6' opacity='0.5'/>
+  <text x='120' y='200' font-size='72' font-family='Inter, Arial' fill='#c6a15b'>Automation</text>
+</svg>
